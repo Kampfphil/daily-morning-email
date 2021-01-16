@@ -68,6 +68,7 @@ class daily_Message():
         server.login(user,pwd)
         server.sendmail(mail_from, rcpt_to, data)
         server.quit()
+        print("e-mail send")
 
     def get_weather():
         # Getting Weather Information using OpenWeatherMap
