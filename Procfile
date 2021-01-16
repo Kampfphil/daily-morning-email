@@ -1,1 +1,1 @@
-worker: python daily_Message.py
+worker: python run.py

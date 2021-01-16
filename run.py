@@ -2,7 +2,7 @@ from daily_Message import daily_Message
 import schedule
 import time
 
-schedule.every().day.at("17:45").do(daily_Message.send_email)
+schedule.every().day.at("17:50").do(daily_Message.send_email)
 
 while True:
     print("Running")
