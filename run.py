@@ -2,9 +2,9 @@ from daily_Message import daily_Message
 import schedule
 import time
 
-schedule.every().day.at("17:15").do(daily_Message.send_email)
+schedule.every().day.at("17:25").do(daily_Message.send_email)
 
 while True:
-    print("Running")
+    print("Running!")
     schedule.run_pending()
-    time.sleep(10)
+    time.sleep(1)
